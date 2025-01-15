@@ -1,6 +1,6 @@
 import plotly.graph_objects as go
 import plotly.offline as pyo
-import plotly.express as px  
+import plotly.express as px
 
 # 1. Создание интерактивной диаграммы рассеяния
 fig1 = go.Figure(data=[go.Scatter(x=[1, 2, 3], y=[4, 5, 6], mode='markers')])
